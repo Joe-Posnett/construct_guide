@@ -8,7 +8,6 @@ import os
 
 # Set OpenAI API key
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
-client = OpenAI(api_key="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")
 
 # Load data and create index
 @st.cache_resource(show_spinner=False)
